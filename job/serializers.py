@@ -1,5 +1,5 @@
 from rest_framework import serializers 
-from models import Category,Company,Vacancy,Workers
+from .models import Category,Company,Vacancy,Workers
 
 
 class CategorySerializer(serializers.ModelSerializer):
